@@ -4,22 +4,19 @@
     box-sizing: border-box;
 }
 #logo{
-    float:left;
-     width: clamp(120px, 2.5vw, 300px);
-    height: clamp(70px, 1vw, 280px);
+    height: 130px;
+    width: auto;
 }
 .links{
     width: clamp(30px, 2.5vw, 300px);
     height: clamp(20px, 2.5vw, 300px);
 }
+
 main{
-   
+     
 }
 img{
-    float: left;
-    width: 30v;
-    height: 40vh;
-    max-width: 100%;
+    
 }
 p{
     font-size: clamp(15px, 1vw, 20px);
@@ -31,7 +28,7 @@ nav{
     padding: 1.5%;
     background-color: #000000;
     text-align: center; 
-    width: 100vw;
+    width: 100%;
 }
 a{
     display: inline-flex;
@@ -47,12 +44,26 @@ ul{
 }
 
 aside{
-    width: 30%;
+    float: right;
     background-color: #aaa4a4;
     color: rgb(0, 0, 0);
-    height: 60vh;
-    float: right;
+     width: 30%;
+    height: auto; /* importante */
+
 }
 footer{
-  
+    padding: 1%;
+    color: white;
+    background-color: #000000;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: clamp(100%, 100vw, 60%);
+    
+
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
