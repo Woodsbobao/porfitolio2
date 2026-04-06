@@ -3,12 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 nav{
     padding: 1.5%;
     background-color: #000000;
     width: 100%;
     display: flex;
     align-items: center;
+}
+ul, a{
+    display: inline-flex;
+    text-align: left;
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    font-size: clamp(13px, 1vw, 20px);
 }
 ul{
     display: inline-flex;
@@ -23,19 +31,24 @@ ul{
     float: right;
     justify-content: right;
 }
-
+#wpp:hover{
+    color: #ff0000;
+    transition: 0.4s;
+    border-radius: 7px;
+}
 #contatos{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-align: center;
     display: flex; 
-    gap: 2vw;
+    gap: 3vw;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    width: 100vw;
-    height: 56vh;
+    width: 100%;
+    height: 50vh;
     color: #3700ff;
-    background-color: #ff0000;
+    background-color: #ffffff;
+    font-size: clamp(20px, 2vw, 25px);
 }       
 
 a:hover{
@@ -49,21 +62,19 @@ a:hover{
     width: auto;
 }
 
-a{
-    display: inline-flex;
-    text-align: left;
-    color: white;
-    text-decoration: none;
-    font-size: clamp(13px, 1vw, 20px);
+#wpp{
+    color: rgb(0, 0, 0);
 }
-
 header{
     background-color: #ff0000;
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 6%;
+    font-size: clamp(20px, 2vw, 25px);
 }
 main{
-    height: 40vh;
-    padding: 2%;
+    height: 10%;
+    width: 100%;
     background-color: rgb(255, 255, 255);
 }
