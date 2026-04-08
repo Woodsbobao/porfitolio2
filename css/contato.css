@@ -17,6 +17,7 @@ ul, a{
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: clamp(13px, 1vw, 20px);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 ul{
     display: inline-flex;
@@ -49,6 +50,7 @@ ul{
     color: #3700ff;
     background-color: #ffffff;
     font-size: clamp(20px, 2vw, 25px);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }       
 #redesociais{
     display: flex;
@@ -58,7 +60,6 @@ ul{
     height: 50px;
     display: flex;
     align-items: right;
-    
 }
 a:hover{
     color: #ff0000;
@@ -70,18 +71,18 @@ a:hover{
     height: 80px;
     width: auto;
 }
-
 #wpp{
     color: rgb(0, 0, 0);
     font-size: clamp(20px, 2vw, 25px);
 }
 header{
-    background-color: #ff0000;
+    background-color: #d13f3f;
     color: rgb(0, 0, 0);
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 5%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 4%;
     font-size: clamp(20px, 2vw, 25px);
+    text-shadow: 1px 1px 2px #000000;
 }
 main{
     height: 10%;
