@@ -54,7 +54,6 @@ aside{
     color: rgb(0, 0, 0);
      width: 30%;
     height: auto; /* importante */
-
 }
 footer{
     padding: 1%;
@@ -64,11 +63,10 @@ footer{
     position: fixed;
     bottom: 0;
     width: clamp(100%, 100vw, 60%);
-    
-
 }
 body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: rgb(71, 71, 71);
 }
