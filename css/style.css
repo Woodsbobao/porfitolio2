@@ -16,6 +16,7 @@ section{
 .links{
     width: clamp(30px, 2.5vw, 300px);
     height: clamp(20px, 2.5vw, 300px);
+    border-radius: 50%;
 }
 
 a:hover{

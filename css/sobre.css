@@ -3,6 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+#direitos:hover{
+    color: rgb(255, 0, 0);
+}
+#direitos{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
 nav{
     padding: 1.5%;
     background-color: #000000;
@@ -44,7 +51,7 @@ nav{
 a{
     display: inline-flex;
     text-align: left;
-    color: white;
+    color:  white;
     text-decoration: none;
     font-size: clamp(13px, 1vw, 20px);
 }
@@ -66,8 +73,8 @@ aside{
 }
 footer{
     padding: 1%;
-    color: white;
-    background-color: #000000;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
     text-align: center;
     position: fixed;
     bottom: 0;
@@ -83,11 +90,16 @@ body{
 }
 main{
     border: 3px solid rgb(151, 20, 20);
-    min-width: 300px;
+    width: clamp(100%, 20vw, 300px);
     min-height: 100%;
     background-color: rgb(77, 76, 76);
     max-width:  2000px;
     max-height: 100%;
+}
+img{
+    width: clamp(80px, 20vw, 300px);
+    height: auto;
+    border-radius: 50%;
 }
 .container{
     display: flex;
